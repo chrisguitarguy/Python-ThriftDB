@@ -4,10 +4,7 @@ import requests
 
 
 class ThriftDB(object):
-    """
-    A thing wrapper around requests for the thrift db API (or what we need to
-    use of it).
-    """
+    """A ThriftDB client in Python"""
 
     url = 'http://api.thriftdb.com/'
 
