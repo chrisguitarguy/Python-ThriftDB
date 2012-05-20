@@ -5,7 +5,7 @@ import sys
 import unittest
 import json
 
-from thrift import ThriftDB
+from thriftdb import ThriftDB
 
 SCHEMA = {
     '__class__': 'StructSchema',
